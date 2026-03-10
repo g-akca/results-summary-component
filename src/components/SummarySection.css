@@ -9,3 +9,16 @@
     color: var(--navy-950);
     font-size: 18px;
 }
+
+/* Tablet Responsive Styles */
+@media screen and (min-width: 768px) {
+    .summary-section {
+        justify-content: center;
+        gap: var(--spacing-400);
+        padding: var(--spacing-600) var(--spacing-500);
+    }
+
+    .summary-section h2 {
+        font-size: 24px;
+    }
+}
