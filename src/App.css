@@ -14,3 +14,22 @@
   gap: var(--spacing-300);
   padding-bottom: var(--spacing-400);
 }
+
+/* Tablet Responsive Styles */
+@media screen and (min-width: 768px) {
+  #root {
+    padding: var(--spacing-500);
+    align-items: center;
+  }
+
+  .card {
+    max-width: 736px;
+    flex-grow: 0;
+    padding: 0;
+    border-radius: var(--spacing-400);
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+}
