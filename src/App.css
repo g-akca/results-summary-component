@@ -27,6 +27,7 @@
     flex-grow: 0;
     padding: 0;
     border-radius: var(--spacing-400);
+    box-shadow: 0 30px 60px rgba(61, 108, 236, 0.15);
     
     display: grid;
     grid-template-columns: 1fr 1fr;

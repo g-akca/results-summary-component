@@ -51,11 +51,51 @@
 .description-div h3 {
     color: var(--white);
     font-size: 24px;
+    line-height: 130%;
     font-weight: bold;
 }
 
 .description-div .sub-text {
     color: var(--navy-200);
     font-size: 16px;
-    font-weight: 500;
+}
+
+/* Tablet Responsive Styles */
+@media screen and (min-width: 768px) {
+    .result-section {
+        padding: var(--spacing-600) var(--spacing-800);
+        border-radius: var(--spacing-400);
+        gap: var(--spacing-400);
+        box-shadow: none;
+    }
+
+    .result-section h2 {
+        font-size: 24px;
+    }
+
+    .score-div {
+        width: 200px;
+        height: 200px;
+    }
+
+    .score-div .score-text {
+        font-size: 72px;
+    }
+
+    .score-div .sub-text {
+        font-size: 18px;
+        opacity: 0.5;
+    }
+
+    .description-div {
+        gap: var(--spacing-200);
+    }
+
+    .description-div h3 {
+        font-size: 32px;
+    }
+
+    .description-div .sub-text {
+        font-size: 18px;
+    }
 }
