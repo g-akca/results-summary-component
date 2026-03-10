@@ -1,13 +1,14 @@
-import SummaryItem from "./SummaryItem";
+import SubmitButton from "./SubmitButton";
 
 function SummarySection() {
   return (
-    <>
-      <SummaryItem />
-      <SummaryItem />
-      <SummaryItem />
-      <SummaryItem />
-    </>
+    <section className="summary-section">
+      <h2>Summary</h2>
+
+      <SummaryList />
+
+      <SubmitButton />
+    </section>
   )
 }
 
