@@ -12,4 +12,5 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--spacing-300);
+  padding-bottom: var(--spacing-400);
 }

@@ -1,0 +1,13 @@
+.submit-btn {
+    background-color: var(--navy-950);
+    border-radius: 128px;
+    height: var(--spacing-700);
+    border: none;
+    cursor: pointer;
+
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: bold;
+}
