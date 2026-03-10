@@ -20,7 +20,6 @@
 .summary-type {
     color: var(--red-400);
     font-size: 16px;
-    font-weight: 500;
 }
 
 .summary-result {
