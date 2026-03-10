@@ -1,4 +1,6 @@
 import SubmitButton from "./SubmitButton";
+import SummaryList from "./SummaryList";
+import "./SummarySection.css";
 
 function SummarySection() {
   return (
@@ -6,7 +8,7 @@ function SummarySection() {
       <h2>Summary</h2>
 
       <SummaryList />
-
+      
       <SubmitButton />
     </section>
   )
