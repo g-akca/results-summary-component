@@ -10,7 +10,7 @@
 .summary-item > div {
     display: flex;
     align-items: center;
-    gap: 20px var(--spacing-200);
+    gap: var(--spacing-200);
 }
 
 .summary-logo {
@@ -32,4 +32,11 @@
 
 .summary-result .out-of {
     opacity: 0.5;
+}
+
+/* Tablet Responsive Styles */
+@media screen and (min-width: 768px) {
+    .summary-type, .summary-result {
+        font-size: 18px;
+    }
 }

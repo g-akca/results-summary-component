@@ -63,7 +63,7 @@
 /* Tablet Responsive Styles */
 @media screen and (min-width: 768px) {
     .result-section {
-        padding: var(--spacing-600) var(--spacing-800);
+        padding: var(--spacing-600) 62px;
         border-radius: var(--spacing-400);
         gap: var(--spacing-400);
         box-shadow: none;

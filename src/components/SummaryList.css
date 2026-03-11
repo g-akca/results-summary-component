@@ -1,5 +1,5 @@
 .summary-list {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-200);
+    display: grid;
+    grid-auto-rows: var(--spacing-700);
+    row-gap: var(--spacing-200);
 }
