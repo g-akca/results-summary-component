@@ -4,13 +4,28 @@
     align-items: center;
     padding: var(--spacing-200);
     border-radius: 12px;
+}
+
+.summary-item.reaction {
     background-color: var(--red-50);
+}
+
+.summary-item.memory {
+    background-color: var(--yellow-50);
+}
+
+.summary-item.verbal {
+    background-color: var(--green-50);
+}
+
+.summary-item.visual {
+    background-color: var(--blue-50);
 }
 
 .summary-item > div {
     display: flex;
     align-items: center;
-    gap: var(--spacing-200);
+    gap: 12px;
 }
 
 .summary-logo {
@@ -18,8 +33,23 @@
 }
 
 .summary-type {
-    color: var(--red-400);
     font-size: 16px;
+}
+
+.summary-item.reaction .summary-type {
+    color: var(--red-400);
+}
+
+.summary-item.memory .summary-type {
+    color: var(--yellow-400);
+}
+
+.summary-item.verbal .summary-type {
+    color: var(--green-500);
+}
+
+.summary-item.visual .summary-type {
+    color: var(--blue-800);
 }
 
 .summary-result {

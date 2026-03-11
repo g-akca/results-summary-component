@@ -1,16 +1,15 @@
 import "./SummaryItem.css";
-import reactionLogo from "../assets/images/icon-reaction.svg";
 
-function SummaryItem() {
+function SummaryItem({ category, score, icon }) {
   return (
-    <div className="summary-item">
+    <div className={`summary-item ${category.toLowerCase()}`}>
       <div>
-        <img className="summary-logo" src={reactionLogo} alt="" />
-        <p className="summary-type">Reaction</p>
+        <img className="summary-logo" src={icon} alt="" />
+        <p className="summary-type">{category}</p>
       </div>
       
       <p className="summary-result">
-        <span className="score">80</span>
+        <span className="score">{score}</span>
         <span className="out-of">/ 100</span>
       </p>
     </div>
