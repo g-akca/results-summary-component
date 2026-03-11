@@ -11,3 +11,7 @@
     line-height: inherit;
     font-weight: bold;
 }
+
+.submit-btn:hover {
+    background: var(--gradient-2);
+}
