@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/g-akca/results-summary-component)
-- Live Site URL: [FAQ Accordion](https://g-akca.github.io/results-summary-component/)
+- Live Site URL: [Results Summary Component](https://g-akca.github.io/results-summary-component/)
 
 ## My process
 
